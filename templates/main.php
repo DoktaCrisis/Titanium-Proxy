@@ -1,6 +1,6 @@
 <style>img[alt*="www.000webhost.com"] {
     display: none;}
-code made by Titanumnetwork, 
+code made by Titanumnetwork,
 img[alt="www.000webhost.com"]{display:none;}
 </style>
 <html>
@@ -33,9 +33,9 @@ html body {
 #frm {
 	padding:10px 15px;
 	background-color:#1f1f14;
-	
+
 	border:1px solid #6600ff;
-	
+
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
@@ -58,35 +58,35 @@ html body {
 
 	<div style="text-align:center;">
 		<h1 style="color:purple;">Titanium Network Proxy</h1>
-                <h1 style="color:green;">Shadowsnhd's PHP-Proxy Server</h1>														
+                <h1 style="color:green;">Thonk's PHP-Proxy Server</h1>														
 		<h3 style="color:blue;">Using the titaniumnetwork proxy will allow you to anonymously visit any site you wish. Due to its anonymous nature, you can even unblock websites that are blocked by school and work firewalls!</h3>
 	</div>
-	
+
 	<?php if(isset($error_msg)){ ?>
-	
+
 	<div id="error">
 		<p><?php echo $error_msg; ?></p>
 	</div>
-	
+
 	<?php } ?>
-	
+
 	<div id="frm">
-	
+
 	<!-- I wouldn't touch this part -->
-	
+
 		<form action="index.php" method="post" style="margin-bottom:0;">
 			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
 			<input type="submit" value="Go" />
 		</form>
-		
+
 		<script type="text/javascript">
 			document.getElementsByName("url")[0].focus();
 		</script>
-		
+
 	<!-- [END] -->
-	
+
 	</div>
-	
+
 </div>
 	<div style="text-align:center;">
 		<h4 style="color:blue;">Websites that can be unblocked include the following : </h2>
